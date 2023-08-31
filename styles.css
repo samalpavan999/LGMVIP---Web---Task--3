@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+  }
+  .calculator {
+    max-width: 350px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: black; /* Changed background color */
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: white; /* Changed text color to white */
+    background-color: #333; /* Changed background color */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  .search-bar {
+    display: flex;
+    background-color: white; /* White background for search bar */
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  .search-input {
+    flex: 1;
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    background-color: transparent;
+    color: black; /* Changed text color to black */
+  }
+  .search-btn {
+    width: 48px;
+    font-size: 18px;
+    background-color: #949694;
+    color: white;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  .search-btn:hover {
+    background-color: #939693;
+  }
+  .btn1{
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    font-size: 18px;
+    background-color: #8d918d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  .btn {
+    width: 82.2235px;
+    height: 50px;
+    margin: 5px;
+    font-size: 18px;
+    background-color: #8d918d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  .btn:hover {
+    background-color: #909390;
+  }
+  .btn1:hover {
+    background-color: #909390;
+  }
